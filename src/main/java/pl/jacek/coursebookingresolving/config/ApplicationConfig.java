@@ -19,13 +19,8 @@ public class ApplicationConfig {
     private final UserRepository userRepository;
 
     @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder(10);
-    }
-
-    @Bean
     public UserDetailsService userDetailsService() {
-        return userRepository::findByEmail;
+        return username -> userRepository.findByEmail(username);
     }
 
     @Bean
@@ -39,5 +34,10 @@ public class ApplicationConfig {
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();
+    }
+
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
     }
 }

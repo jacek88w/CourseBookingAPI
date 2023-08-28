@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.jacek.coursebookingresolving.entity.Course;
-import pl.jacek.coursebookingresolving.repository.dto.CourseDTO;
+import pl.jacek.coursebookingresolving.dto.CourseDTO;
 import pl.jacek.coursebookingresolving.service.CourseService;
 
 import java.util.List;

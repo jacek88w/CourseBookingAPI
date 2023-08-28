@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import pl.jacek.coursebookingresolving.entity.Course;
 import pl.jacek.coursebookingresolving.exceptions.NoSuchEntityException;
 import pl.jacek.coursebookingresolving.repository.CourseRepository;
-import pl.jacek.coursebookingresolving.repository.dto.CourseDTO;
+import pl.jacek.coursebookingresolving.dto.CourseDTO;
 
 import java.util.List;
 import java.util.Objects;

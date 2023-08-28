@@ -1,0 +1,3 @@
+UsernamePasswordAuthenticationToken - build in object in spring security, needed to update SecurityContextHolder
+
+AuthenticationProvider - data access object, which is responsible to fetch userdetails and encode password ..

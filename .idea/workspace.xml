@@ -1,34 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="70a3e61c-7b34-4405-b7dd-b8b0c296a1cb" name="Changes" comment="" />
+    <list default="true" id="2bbd46b3-9ba2-484f-b374-1c790a9b2b9d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/controller/UserDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/PasswordResetToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/VerificationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/enums/CourseAdvancement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/enums/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/exceptions/EntityValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/exceptions/NoSuchEntityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/deletedMethods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/RegistrationCompleteEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/listener/RegistrationCompleteEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationRequestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationResponseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/PasswordModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/RegisterRequestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/CourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/PasswordResetToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/VerificationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/ApplicationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/deletedMethods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/RegistrationCompleteEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/listener/RegistrationCompleteEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationRequestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationResponseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/RegisterRequestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/PasswordResetTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/VerificationTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/dto/CourseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/dto/CourseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="2U6xHRGsg3sOwmNjYlwehpzGfUV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2U6jSEm6otkXqjU5zQdF608LgN0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jacek/Desktop/Programy nauka/courseBooking/CourseBookingRemastered/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;dd2a09970a754aa440c60771c07e07c3&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;,
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.jacek.coursebookingresolving.config.auth" />
+      <recent name="pl.jacek.coursebookingresolving.config" />
+      <recent name="pl.jacek.coursebooking.auth" />
+      <recent name="pl.jacek.coursebooking.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CoursebookingResolvingApplication">
+    <configuration name="CourseBookingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.jacek.coursebooking.CourseBookingApplication" />
+      <module name="CourseBooking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jacek.coursebooking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ResolvingCoursebooking" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ResolvingCoursebooking" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseBookingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <envs>
+        <env name="DB_lOGIN" value="root" />
+        <env name="DB_PASSWORD" value="1234" />
+      </envs>
+      <module name="CourseBooking" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.jacek.coursebooking.CourseBookingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoursebookingResolvingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CoursebookingResolving" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.jacek.coursebookingresolving.CoursebookingResolvingApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jacek.coursebookingresolving.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailSenderApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="MailSenderApi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.jacek.MailSenderApi.MailSenderApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CourseBookingApplication" />
+      <item itemvalue="Spring Boot.CourseBookingApplication" />
+      <item itemvalue="Spring Boot.MailSenderApiApplication" />
+      <item itemvalue="Spring Boot.CoursebookingResolvingApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CoursebookingResolvingApplication" />
+        <item itemvalue="Application.CourseBookingApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="70a3e61c-7b34-4405-b7dd-b8b0c296a1cb" name="Changes" comment="" />
-      <created>1692273745814</created>
+      <changelist id="2bbd46b3-9ba2-484f-b374-1c790a9b2b9d" name="Changes" comment="" />
+      <created>1692266926521</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692273745814</updated>
+      <updated>1692266926521</updated>
+      <workItem from="1692266929219" duration="64000" />
+      <workItem from="1692290700065" duration="303000" />
+      <workItem from="1692338439645" duration="3343000" />
+      <workItem from="1692346287867" duration="1565000" />
+      <workItem from="1692635717222" duration="1333000" />
+      <workItem from="1692646276523" duration="1489000" />
+      <workItem from="1692689135687" duration="4063000" />
+      <workItem from="1692696501768" duration="647000" />
+      <workItem from="1692699154924" duration="3579000" />
+      <workItem from="1692712110578" duration="765000" />
+      <workItem from="1692726796291" duration="4922000" />
+      <workItem from="1692768851418" duration="2893000" />
+      <workItem from="1692818938565" duration="1129000" />
+      <workItem from="1692856785652" duration="10873000" />
+      <workItem from="1692875184874" duration="599000" />
+      <workItem from="1692883263785" duration="980000" />
+      <workItem from="1692894953521" duration="3456000" />
+      <workItem from="1692956362785" duration="5652000" />
+      <workItem from="1692966906626" duration="3176000" />
+      <workItem from="1692971776671" duration="28000" />
+      <workItem from="1692971819866" duration="599000" />
+      <workItem from="1692972428240" duration="17000" />
+      <workItem from="1692975450968" duration="931000" />
+      <workItem from="1693029451175" duration="8703000" />
+      <workItem from="1693117910881" duration="2745000" />
+      <workItem from="1693161376845" duration="2201000" />
+      <workItem from="1693196431554" duration="9573000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>
