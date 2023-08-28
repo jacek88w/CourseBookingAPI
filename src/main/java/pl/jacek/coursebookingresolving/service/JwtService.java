@@ -1,4 +1,4 @@
-package pl.jacek.coursebookingresolving.config;
+package pl.jacek.coursebookingresolving.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

@@ -5,65 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bbd46b3-9ba2-484f-b374-1c790a9b2b9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/demo/UserTestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/config/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/controller/CourseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/controller/UserDetailsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/PasswordResetToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/entity/VerificationToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/enums/CourseAdvancement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/enums/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/exceptions/EntityValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/exceptions/NoSuchEntityException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/UserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/deletedMethods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/RegistrationCompleteEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/listener/RegistrationCompleteEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationRequestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/PasswordModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/model/RegisterRequestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/CourseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoursebookingResolving/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserDetailsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/PasswordResetToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/auth/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/demo/UserTestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/VerificationToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/ApplicationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/UserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/deletedMethods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/RegistrationCompleteEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling/event/listener/RegistrationCompleteEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/exceptions/EntityValidationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/explaination" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/explanation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationRequestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/RegisterRequestModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/PasswordResetTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/VerificationTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/dto/CourseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/dto/CourseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/repository/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/JwtService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,31 +56,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jacek/Desktop/Programy nauka/courseBooking/CourseBookingRemastered/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;dd2a09970a754aa440c60771c07e07c3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Jacek/Desktop/Programy nauka/courseBooking/CourseBookingRemastered/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
+    "show.run.dashboard.notification": "false",
+    "spring.configuration.checksum": "dd2a09970a754aa440c60771c07e07c3"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pl.jacek.coursebookingresolving.config.auth" />
@@ -242,7 +196,7 @@
       <workItem from="1693029451175" duration="8703000" />
       <workItem from="1693117910881" duration="2745000" />
       <workItem from="1693161376845" duration="2201000" />
-      <workItem from="1693196431554" duration="9573000" />
+      <workItem from="1693196431554" duration="22168000" />
     </task>
     <servers />
   </component>

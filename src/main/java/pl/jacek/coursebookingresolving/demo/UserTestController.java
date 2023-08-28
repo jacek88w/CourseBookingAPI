@@ -1,21 +1,20 @@
-package pl.jacek.coursebookingresolving.controller;
+package pl.jacek.coursebookingresolving.demo;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.jacek.coursebookingresolving.entity.User;
 import pl.jacek.coursebookingresolving.dto.UserDTO;
-import pl.jacek.coursebookingresolving.service.UserService;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/user")
-public class TestController {
+public class UserTestController {
 
-    private final UserService userService;
+    private final UserTestService userService;
 
-    public TestController(UserService userService) {
+    public UserTestController(UserTestService userService) {
         this.userService = userService;
     }
 

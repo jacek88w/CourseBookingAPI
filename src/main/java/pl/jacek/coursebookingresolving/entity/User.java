@@ -34,12 +34,12 @@ import java.util.List;
 )
 public class User implements UserDetails {
 
-    public User(String firstName, String lastName, int age, String email, List<Course> courses) {
+    public User(String firstName, String lastName, String email, List<Course> courses, boolean enabled) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.age = age;
         this.email = email;
         this.courses = courses;
+        this.enabled = enabled;
     }
 
     @Id
@@ -83,7 +83,7 @@ public class User implements UserDetails {
     @ToString.Exclude
     private String password;
 
-    private boolean enabled = false;
+    private boolean enabled;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -112,6 +112,6 @@ public class User implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return true;
+        return enabled;
     }
 }
