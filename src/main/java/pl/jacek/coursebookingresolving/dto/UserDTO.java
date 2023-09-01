@@ -16,9 +16,9 @@ import java.time.LocalDate;
 public class UserDTO {
 
 
-    private String firstname;
+    private String firstName;
 
-    private String lastname;
+    private String lastName;
 
     private LocalDate dateOfBirth;
 
