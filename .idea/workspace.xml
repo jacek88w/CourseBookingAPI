@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bbd46b3-9ba2-484f-b374-1c790a9b2b9d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/demo/UserTestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationResponseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/config/auth/AuthenticationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/demo/UserTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/exceptions/EntityValidationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/explaination" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/explanation" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationRequestModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/demo/UserTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/demo/UserTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/model/AuthenticationResponseModel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/jacek/coursebookingresolving/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jacek/coursebookingresolving/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jacek/coursebookingresolving/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Jacek/Desktop/Programy nauka/courseBooking/CourseBookingRemastered/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.folding",
-    "show.run.dashboard.notification": "false",
-    "spring.configuration.checksum": "dd2a09970a754aa440c60771c07e07c3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jacek/Desktop/Programy nauka/courseBooking/CourseBookingRemastered/src/main/java/pl/jacek/coursebookingresolving/excludetFromCompiling&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
+    &quot;show.run.dashboard.notification&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e07e593a044d4a2fb9c384de9627919c&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pl.jacek.coursebookingresolving.config.auth" />
@@ -99,6 +92,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.UserService_RegisterUser_ReturnUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseBookingRemastered" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jacek.coursebookingresolving.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jacek.coursebookingresolving.service" />
+      <option name="MAIN_CLASS_NAME" value="pl.jacek.coursebookingresolving.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="UserService_RegisterUser_ReturnUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,7 +138,8 @@
       </method>
     </configuration>
     <configuration name="CoursebookingResolvingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="CoursebookingResolving" />
+      <option name="ACTIVE_PROFILES" />
+      <module name="CourseBookingRemastered" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.jacek.coursebookingresolving.CoursebookingResolvingApplication" />
       <extension name="coverage">
         <pattern>
@@ -151,6 +161,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.CourseBookingApplication" />
+      <item itemvalue="JUnit.UserServiceTest.UserService_RegisterUser_ReturnUser" />
       <item itemvalue="Spring Boot.CourseBookingApplication" />
       <item itemvalue="Spring Boot.MailSenderApiApplication" />
       <item itemvalue="Spring Boot.CoursebookingResolvingApplication" />
@@ -158,6 +169,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.CoursebookingResolvingApplication" />
+        <item itemvalue="JUnit.UserServiceTest.UserService_RegisterUser_ReturnUser" />
         <item itemvalue="Application.CourseBookingApplication" />
       </list>
     </recent_temporary>
@@ -197,6 +209,14 @@
       <workItem from="1693117910881" duration="2745000" />
       <workItem from="1693161376845" duration="2201000" />
       <workItem from="1693196431554" duration="22168000" />
+      <workItem from="1693632766204" duration="1561000" />
+      <workItem from="1693859254134" duration="614000" />
+      <workItem from="1693913535865" duration="1851000" />
+      <workItem from="1694032631905" duration="9000" />
+      <workItem from="1694169013614" duration="155000" />
+      <workItem from="1694185689852" duration="53000" />
+      <workItem from="1694349542080" duration="797000" />
+      <workItem from="1694426740533" duration="531000" />
     </task>
     <servers />
   </component>
@@ -216,7 +236,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/../../.." />
+      <path value="$USER_HOME$" />
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
   </component>

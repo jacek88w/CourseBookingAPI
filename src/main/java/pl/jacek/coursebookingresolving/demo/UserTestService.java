@@ -53,14 +53,14 @@ public class UserTestService {
             throw new NoSuchEntityException("User not found");
         }
 
-        if(Objects.nonNull(userDTO.getFirstname()) &&
-            !"".equalsIgnoreCase(userDTO.getFirstname())) { // <-- FirstName
-            userDB.setFirstName(userDTO.getFirstname());
+        if(Objects.nonNull(userDTO.getFirstName()) &&
+            !"".equalsIgnoreCase(userDTO.getFirstName())) { // <-- FirstName
+            userDB.setFirstName(userDTO.getFirstName());
         }
 
-        if(Objects.nonNull(userDTO.getLastname()) &&
-                !"".equalsIgnoreCase(userDTO.getLastname())) { // <-- LastName
-            userDB.setLastName(userDTO.getLastname());
+        if(Objects.nonNull(userDTO.getLastName()) &&
+                !"".equalsIgnoreCase(userDTO.getLastName())) { // <-- LastName
+            userDB.setLastName(userDTO.getLastName());
         }
 
         if(Objects.nonNull(userDTO.getDateOfBirth())) {

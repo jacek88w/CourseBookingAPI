@@ -5,30 +5,30 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pl.jacek.coursebookingresolving.entity.VerificationToken;
-import pl.jacek.coursebookingresolving.model.AuthenticationResponseModel;
-import pl.jacek.coursebookingresolving.service.UserService;
 import pl.jacek.coursebookingresolving.dto.UserDTO;
+import pl.jacek.coursebookingresolving.entity.User;
+import pl.jacek.coursebookingresolving.entity.VerificationToken;
 import pl.jacek.coursebookingresolving.event.RegistrationEvent;
+import pl.jacek.coursebookingresolving.service.UserService;
 import pl.jacek.coursebookingresolving.service.VerificationTokenService;
 
 @RestController
 @RequestMapping("/api/v1/auth")
 @RequiredArgsConstructor
-public class UserController {
+public class AuthenticationController {
 
     private final UserService userService;
     private final VerificationTokenService verificationTokenService;
     private final ApplicationEventPublisher publisher;
 
     @PostMapping("/register")
-    public ResponseEntity<AuthenticationResponseModel> register(@RequestBody UserDTO userDTO, HttpServletRequest http) {
-        var result = userService.register(userDTO);
+    public ResponseEntity<User> register(@RequestBody UserDTO userDTO, HttpServletRequest http) {
+        var user = userService.register(userDTO);
         publisher.publishEvent(new RegistrationEvent(
-                result.getUser(),
+                user,
                 applicationUrl(http)
         ));
-        return ResponseEntity.ok(result);
+        return ResponseEntity.ok(user);
     }
 
     @GetMapping("/verifyRegistration")

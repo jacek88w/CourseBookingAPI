@@ -11,8 +11,6 @@ import pl.jacek.coursebookingresolving.enums.CourseAdvancement;
 @Data
 public class CourseDTO {
 
-    @Length(min = 2, max = 50)
-    @NotNull
     private String name;
     private CourseAdvancement advancement;
 

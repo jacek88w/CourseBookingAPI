@@ -5,15 +5,20 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import pl.jacek.coursebookingresolving.config.ApplicationConfig;
 import pl.jacek.coursebookingresolving.dto.UserDTO;
 import pl.jacek.coursebookingresolving.entity.User;
 import pl.jacek.coursebookingresolving.repository.UserRepository;
 
 import java.time.LocalDate;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.BDDMockito.willDoNothing;
@@ -24,6 +29,10 @@ class UserServiceTest {
 
     @Mock
     private UserRepository userRepository;
+    @Mock
+    private ApplicationConfig applicationConfig;
+    @Mock
+    private PasswordEncoder passwordEncoder;
     @InjectMocks
     private UserService userService;
 
@@ -48,4 +57,20 @@ class UserServiceTest {
                 .password("1234")
                 .build();
     }
+
+    @Test
+    public void UserService_RegisterUser_ReturnUser() {
+        lenient().when(userRepository.save(user)).thenReturn(user);
+        lenient().when(passwordEncoder.encode("1234")).thenReturn("a");
+
+        User savedUser = userService.register(userDTO);
+
+        assertThat(savedUser).isNotNull();
+    }
+
+    @Test
+    public void UserService_FindUserById_ReturnUser() {
+
+    }
+
 }

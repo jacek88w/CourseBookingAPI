@@ -1,6 +1,7 @@
 package pl.jacek.coursebookingresolving.dto;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,11 +21,10 @@ public class UserDTO {
 
     private String lastName;
 
+    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate dateOfBirth;
 
     private String email;
 
     private String password;
-
-    private String matchingPassword;
 }
